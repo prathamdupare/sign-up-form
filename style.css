@@ -1,7 +1,8 @@
 * {
     color: aliceblue;
     background-color: black;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
+    ;
 }
 
 
@@ -29,8 +30,8 @@ html {
 
 .logo-section {
     display: flex;
-    
-    
+
+
     padding-top: 100px;
     display: flex;
     position: absolute;
@@ -80,6 +81,7 @@ html {
 .highlight {
     color: #BE0357;
 }
+
 label {
     padding-bottom: 10px;
 }
@@ -88,18 +90,21 @@ input {
     background-color: black;
     border: 2px solid #f8cae1;
     border-radius: 5px;
-    color: white; 
-    padding: 1px 3px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    transition: border-color 0.3s, box-shadow 0.3s; 
-  }
-  
-  input:focus {
-    border-color: #ff8aff; /* Change border color on focus */
-    outline: none; /* Remove default focus outline */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance box shadow on focus */
-  }
-  
+    color: white;
+    padding: 1px 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #ff8aff;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove default focus outline */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Enhance box shadow on focus */
+}
+
 
 .greetings {
     font-size: 20px;
@@ -169,6 +174,7 @@ button:active {
         background-size: auto;
         object-fit: cover;
     }
+
     #logo-background {
 
         margin-top: 0px;
